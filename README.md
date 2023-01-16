@@ -1,2 +1,5 @@
 # Cool_Python
-Doing cool things
+Speed up python:
+```
+https://github.com/zq1997/RegCPython
+```
