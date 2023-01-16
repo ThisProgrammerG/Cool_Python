@@ -1,1 +1,0 @@
-Get-ChildItem -Path . -Filter *.py -Recurse | foreach-object { & reorder-python-imports --py311-plus $_.FullName }
