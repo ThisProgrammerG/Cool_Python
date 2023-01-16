@@ -10,6 +10,15 @@ Then, using the current working directory, in PowerShell type the following comm
 Get-ChildItem -Path . -Filter *.py -Recurse | foreach-object { & reorder-python-imports --py311-plus $_.FullName }
 ```
 
+## Black
+Requires:
+```
+pip install black
+```
+Run in PowerShell:
+```
+black ./source
+```
 
 ## Speed up python:
 ```
