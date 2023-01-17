@@ -17,7 +17,7 @@ pip install black
 ```
 Run in PowerShell:
 ```
-black ./source
+black .
 ```
 
 ## Speed up python:
